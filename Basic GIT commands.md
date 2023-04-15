@@ -34,12 +34,16 @@ Or commit previously stages changes
 #### Branching commands 
 > List all branchs <br>
 ``` git branch ```<br> 
+
 > To checkout a particular branch (not the HEAD) <br>
 ``` git checkout <branch Name> ```<br>
+
 > Create a new branch <br>
 ``` git branch <new-branch> ``` <br>
+
 > After we create,... we should delete! [seriously, delete unused/stale branches] <br>
 ``` git branch -d <branch> ``` <br>
+
 > It is a good idea to Tag, specially the important commits - release for UAT, Prod, etc. <br>
 ``` git tag <tag-name> ``` 
 
